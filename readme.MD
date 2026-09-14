@@ -15,7 +15,7 @@ instead of assuming it works.
 
 ## Phases
 
-| # | Phase | Notebook | What it proves |
+| # | Phase | What it proves |
 |---|---|---|---|
 | 1–3 | Baseline → Mixed Precision → Memory Engineering |  AMP + gradient checkpointing/accumulation cut time & memory, loss unchanged |
 | 4 | Custom Fused Attention Kernel | Hand-written Triton kernel beats PyTorch's SDPA on forward-pass latency |
